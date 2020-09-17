@@ -118,7 +118,7 @@ func New(AdminEmail string) *Database {
 
 	sslMode := "disable"
 	if d.config.ssl {
-		sslMode = "enable"
+		sslMode = "require"
 	}
 
 	psqlInfo := fmt.Sprintf(

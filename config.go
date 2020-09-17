@@ -25,6 +25,7 @@ func InitConfig() {
 	viper.SetDefault("db.user", "thor")
 	viper.SetDefault("db.pass", "odinson")
 	viper.SetDefault("db.name", "thunderdome")
+	viper.SetDefault("db.ssl", false)
 	viper.SetDefault("smtp.host", "localhost")
 	viper.SetDefault("smtp.port", "25")
 	viper.SetDefault("smtp.secure", true)
