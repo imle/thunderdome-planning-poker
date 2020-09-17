@@ -51,6 +51,7 @@ func InitConfig() {
 	viper.BindEnv("db.user", "DB_USER")
 	viper.BindEnv("db.pass", "DB_PASS")
 	viper.BindEnv("db.name", "DB_NAME")
+	viper.BindEnv("db.ssl", "DB_SSL")
 	viper.BindEnv("smtp.host", "SMTP_HOST")
 	viper.BindEnv("smtp.port", "SMTP_PORT")
 	viper.BindEnv("smtp.secure", "SMTP_SECURE")
